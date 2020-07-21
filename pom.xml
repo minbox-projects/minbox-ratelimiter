@@ -20,6 +20,25 @@
         <lombok.version>1.18.12</lombok.version>
         <nacos.version>0.2.7</nacos.version>
     </properties>
+    <description>
+        Request flow limit, support Redis Lua script, Google token bucket mode
+    </description>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>hengboy</id>
+            <name>恒宇少年 - 于起宇</name>
+            <url>https://blog.yuqiyu.com</url>
+            <organization>minbox-projects</organization>
+            <organizationUrl>https://gitee.com/minbox-projects</organizationUrl>
+            <email>jnyuqy@gmail.com</email>
+        </developer>
+    </developers>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
